@@ -16,6 +16,7 @@ import { GeolocationService } from '../../services/geolocation.service';
 export class Adding {
   model : Transaction;
   shouldGeolocate  : boolean=false;
+  shouldSend  : boolean=true;
   constructor(public navCtrl: NavController, public geolocator: GeolocationService) {}
 
   ionViewDidLoad() {
@@ -25,9 +26,11 @@ export class Adding {
   }
   getLocation(){
     if(this.shouldGeolocate){
+      this.shouldSend=false;
       this.geolocator.get().then((resultado)=>{
         this.model.setCoords(resultado.coords);
         console.log(this.model);
+        this.shouldSend=true;
       }).catch((err)=>console.log(err))
     }else{
       this.model.cleanCoords();
@@ -36,10 +39,13 @@ export class Adding {
 
   }
   save(){
-    this.model.save().then(result=>{
-      this.model  = new Transaction(null,"");
+    if(this.shouldSend){
+      this.model.save().then(result=>{
+        this.model  = new Transaction(null,"");
 
-      this.navCtrl.pop();
-    });
+        this.navCtrl.pop();
+      });
+    }
+
   }
 }

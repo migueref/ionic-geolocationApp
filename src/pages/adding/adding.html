@@ -27,7 +27,7 @@
     <ion-toggle type="number" [(ngModel)]="shouldGeolocate" (ionChange)="getLocation()"></ion-toggle>
   </ion-item>
   <div class="actions">
-    <button ion-button (click)="save()">Add</button>
+    <button ion-button (click)="save()" [disabled]="!shouldSend">Add</button>
   </div>
 
 </ion-content>

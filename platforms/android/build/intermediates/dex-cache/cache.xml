@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_4f796b2d762164c371ef22f3a3256828e590696e.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-9.8.0_0063c6c61be348278b0bb495dd3127719e18da06.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cife1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_b61eaa31f64a40ccfc21e1f480432c28adaf1274.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-9.8.0_67dc3baf91d1ac94eb54fc9af0492897c5c5f438.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_e9ae0ab7e4b1588bb2cd84f56b5052ae7de1569f.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.8.0_fc2556c61d9d98408c7f8f327ddcca2359ec943b.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.8.0_e673a3ecdb48f8efd8d560606d5dae2318875109.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="ebabf651db988dac8b5520ead4015e6f474d8705">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_caeb1e0c1887beb9b2486688a2f2ac4cc331fcdf.jar" />
+    </item>
+    <item
+        jar="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.3"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.8.0_240812aba335f53fbd6a4e698c6788b3f6cfb3dd.jar" />
+    </item>
+
+</items>
