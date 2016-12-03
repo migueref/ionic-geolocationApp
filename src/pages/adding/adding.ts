@@ -24,6 +24,9 @@ export class Adding {
     console.log(this.model);
 
   }
+  getPhoto(){
+    console.log("vamos a tomar una foto");
+  }
   getLocation(){
     if(this.shouldGeolocate){
       this.shouldSend=false;

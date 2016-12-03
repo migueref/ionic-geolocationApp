@@ -16,7 +16,7 @@
 <ion-content padding>
   <h2>Bienvenido 😎</h2>
   <ion-card>
-    <ion-card-header>Movimientos</ion-card-header>
+    <ion-card-header>Movements</ion-card-header>
     <ion-list *ngFor="let transaction of transactions">
       <button ion-item>
         <strong>{{transaction.amount}}</strong>
@@ -25,6 +25,6 @@
     </ion-list>
   </ion-card>
   <ion-fab>
-    <button ion-fab [navPush]="addingPage">💰</button>
+    <button ion-fab [navPush]="addingPage"><ion-icon name="add"></ion-icon></button>
   </ion-fab>
 </ion-content>

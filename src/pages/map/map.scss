@@ -1,6 +1,6 @@
 page-map {
   #map{
     width:100vh;
-    height: 100vh;
+    height: calc(100vh  -  125px);
   }
 }

@@ -73,5 +73,13 @@
             "API_KEY_FOR_ANDROID": "AIzaSyBPp8aubH40oXyioqOh13hmMP3-BANH5PA",
             "API_KEY_FOR_IOS": "AIzaSyBPp8aubH40oXyioqOh13hmMP3-BANH5PA"
         }
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
