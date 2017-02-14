@@ -14,17 +14,21 @@
 
 
 <ion-content padding>
-  <h2>Bienvenido 😎</h2>
+  <h2>Bienvenido </h2>
   <ion-card>
     <ion-card-header>Movements</ion-card-header>
     <ion-list *ngFor="let transaction of transactions">
+
       <button ion-item>
+        <ion-avatar item-left>
+          <img src="assets/imgs/wallet2.png" alt="">
+        </ion-avatar>
         <strong>{{transaction.amount}}</strong>
         {{transaction.title}}
       </button>
     </ion-list>
   </ion-card>
-  <ion-fab>
+  <ion-fab class="main">
     <button ion-fab [navPush]="addingPage"><ion-icon name="add"></ion-icon></button>
   </ion-fab>
 </ion-content>

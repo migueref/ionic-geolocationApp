@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Transactions } from '../transactions/transactions';
 import { Map } from '../map/map';
 import { ContactPage } from '../contact/contact';
+import { Wallets } from '../wallets/wallets';
 
 @Component({
   templateUrl: 'tabs.html'
@@ -12,7 +13,7 @@ export class TabsPage {
   // should be each tab's root Page
   tab1Root: any = Transactions;
   tab2Root: any = Map;
-  tab3Root: any = ContactPage;
+  tab3Root: any = Wallets;
 
   constructor() {
 

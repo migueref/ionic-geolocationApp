@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:2:1-23:12
+ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:2:98-141
 		INJECTED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml
@@ -167,6 +167,10 @@ uses-feature#android.hardware.location
 ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:22:5-62
 	android:name
 		ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:22:19-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\miguel\angular\ionic-apps\IonicApp\platforms\android\AndroidManifest.xml:23:22-78
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:9-172
 MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\miguel\angular\ionic-apps\IonicApp\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\AndroidManifest.xml:19:9-172

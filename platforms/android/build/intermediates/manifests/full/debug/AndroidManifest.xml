@@ -31,6 +31,8 @@
         android:required="true" />
     <uses-feature android:name="android.hardware.location" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
