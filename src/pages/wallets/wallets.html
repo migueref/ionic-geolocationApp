@@ -16,7 +16,8 @@
 <ion-content>
   <ion-list>
     <ion-list-header>My wallets</ion-list-header>
-    <ion-item *ngFor="let wallet of wallets">
+    <ion-item *ngFor="let wallet of wallets"
+      [ngClass]="{'green': (wallet.id==walletService.getID())}">
       <ion-avatar item-left>
         <img src="assets/imgs/wallet.png" alt="">
       </ion-avatar>

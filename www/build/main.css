@@ -19670,3 +19670,11 @@ page-map #map {
   width: 100vh;
   height: calc(100vh  -  125px);
 }
+
+page-wallets ion-fab.main button {
+  background-color: #eee;
+}
+
+page-wallets .green {
+  background-color: #a5d6a7;
+}
