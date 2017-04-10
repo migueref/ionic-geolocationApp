@@ -54,6 +54,9 @@ export class Wallet implements IWallet{
   save(){
     return db.wallets.add(this);
   }
+  destroy(){
+    return db.wallets.delete(this.id);
+  }
   static first(){
     return db.wallets.orderBy("id").limit(1).first();
   }

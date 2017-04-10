@@ -25,7 +25,7 @@
       <h3>{{wallet.amount}}</h3>
       <p>
         <button ion-button clear (tap)="set(wallet)">Select</button>
-        <button ion-button color="danger">Delete</button>
+        <button ion-button color="danger" (tap)="delete(wallet)">Delete</button>
       </p>
     </ion-item >
   </ion-list>

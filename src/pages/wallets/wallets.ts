@@ -21,11 +21,19 @@ export class Wallets {
               private walletService: WalletService) {}
 
   ionViewWillEnter() {
-    
+
     console.log(this.walletService.getID())
      Wallet.all().then(results => this.wallets = results);
   }
   set(wallet : Wallet){
     this.walletService.setID(wallet.id);
+  }
+  delete(wallet : Wallet){
+    //delete element from wallets view
+    this.wallets= this.wallets.filter(w=>{
+      return w.id!=wallet.id;
+    })
+    //delete element from database
+    wallet.destroy();
   }
 }
